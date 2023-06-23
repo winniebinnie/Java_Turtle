@@ -48,6 +48,7 @@ public class HouseTurtle {
             bob.left(90);
         }
 
+        // Roof tiles
         bob.up();
         bob.forward(35);
         bob.left(90);
@@ -61,5 +62,29 @@ public class HouseTurtle {
         bob.left(90);
         bob.down();
         bob.forward(70);
+        bob.up();
+
+        bob.setPosition(-150, 50);
+        bob.left(130);
+        bob.forward(49);
+        bob.right(40);
+        bob.down();
+        bob.forward(223);
+        bob.left(140);
+        bob.up();
+
+        bob.forward(49);
+        bob.left(40);
+        bob.down();
+        bob.forward(150);
+        bob.up();
+
+        bob.right(140);
+        bob.forward(49);
+        bob.right(40);
+        bob.down();
+        bob.forward(77);
+        bob.hide();
+
     }
 }
